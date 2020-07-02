@@ -1,10 +1,15 @@
 # ARQMath with Transformers
 
+Notebooks are available on Google Colab:
+- [Training](https://colab.research.google.com/github/malteos/arqmath/blob/master/train.ipynb)
+- [Inference](https://colab.research.google.com/github/malteos/arqmath/blob/master/inference.ipynb)
+
+
 ## Getting started
 
 ```bash
 # Create conda env
-conda env create -n arqmath python=3.7
+conda create -n arqmath python=3.7
 conda activate arqmath
 
 # Clone repo
@@ -13,6 +18,9 @@ cd arqmath
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Download dataset
+wget -O data/qa-pair.csv https://httpd.test.gipp.com/qa-pair.csv
 ```
 
 ## Training
