@@ -7,12 +7,13 @@ tqdm
 pyyaml
 matplotlib
 smart-open
-scikit-learn==0.23.1
+scikit-learn==0.20.4
 
 # ML
 nlp==0.3.0
 transformers==3.0.0
 tokenizers==0.8.0
+torch==1.4.0
 
 # tracking
 tensorboard
